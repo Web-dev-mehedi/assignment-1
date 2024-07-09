@@ -39,7 +39,6 @@ body{
     font-weight: 800;
     line-height: 64px;
     margin-bottom: 24px;
-   
      
 }
 
@@ -57,6 +56,7 @@ body{
     padding: 21px 24px 21px 24px;
     color: rgb(255, 255, 255);
     border-radius: 8px;
+    border:none;
 background: rgb(13, 19, 33);
 font-size: 20px;
 font-weight: 600;
@@ -65,3 +65,116 @@ margin: 0px 10px;
 }
 
 /* hero-section-style-ended-here  */
+
+
+/* why-web-dev-section-style-start-here */
+
+.why-web-dev-sec{
+    max-width:1296px;
+    margin:0 auto;
+    padding: 74px 133px 88px;
+}
+
+.container{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+   max-width:1026px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 80px 97px 80px 97px;
+ }
+
+
+ .web-dev-upper-content{
+     text-align: center;
+     margin-bottom: 48px;
+ }
+
+ .web-dev-upper-content h3{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight:800;
+line-height: 37px;
+margin-bottom: 24px;
+} 
+
+.web-dev-upper-content p
+{   opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+ .web-dev-cart1-wrap{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:70px;
+        border-radius: 16px;
+        padding:48px;
+        background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+        
+ }
+ .web-dev-cart2-wrap{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+   align-items: center;
+   gap:70px;
+   padding:48px;
+   border-radius: 16px;
+   background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+ }
+ .web-dev-cart3-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:70px;
+    border-radius: 16px;
+    padding:48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%)
+ }
+
+
+
+.cart1-inner-text h3{
+    color: rgba(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.cart1-inner-text p{
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom:32px;
+}
+
+.cart1-inner-text  button
+{
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+}
+.cart1-inner-text  button a{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+text-decoration: none;
+}
+
+/* why-web-dev-section-style-ended-here */
+
+
