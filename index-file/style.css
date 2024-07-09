@@ -9,3 +9,59 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+
+/*  hero-section-style-start-here  */
+
+.hero-section{
+  max-width:1296px;
+  margin:0 auto;
+  background-image: url("../assets/Hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding:26px 199px 44px;
+  /* height: 652px; */
+ 
+}
+
+.hero-content-wrap{
+    text-align: center;
+}
+
+.hero-content-wrap h2{
+    color: rgb(13, 19, 33);
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 24px;
+   
+     
+}
+
+.hero-content-wrap p{
+    color: rgb(13, 19, 33);
+   font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom:32px;
+
+}
+
+.hero-content-wrap button{
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+background: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+margin: 0px 10px;
+}
+
+/* hero-section-style-ended-here  */
