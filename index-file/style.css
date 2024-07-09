@@ -218,8 +218,8 @@ text-decoration: none;
 
 
 .ins-image-wrap{
-    margin:0 auto;
-    width: 1026px;
+    margin:auto;
+    width:100%;
     height: 524px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -235,5 +235,103 @@ text-decoration: none;
 
   /* my-inspiration-section-style-ended-here */
 
+
+
+
+  /* target-section-style-started-here */
+
+  .target-sec{
+    max-width:1296px;
+    margin:auto;
+    padding:8px 133px 88px; 
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: center;
+    gap:48px;
+
+  }
+
+
+  .tar-text-wrap{
+     text-align:center;
+     padding: 0px 110px;
+     margin-top:62px;
+  }
+
+  .tar-text-wrap h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+
+  }
+
+  .tar-text-wrap p{
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+
+.tar-card-wrap{
+    width: 100%;
+    margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap:24px;
+ 
+}
+
+.tar-card-wrap img{
+    margin-bottom: 24px;
+  }
+.tar-card-wrap h2{
+      color: rgb(13, 19, 33);
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 36px;
+      text-align: left;
+      margin-bottom: 8px;
+  }
+  
+  .tar-card-wrap p{
+  text-align: left;  
+  color: rgb(13, 19, 33 , 0.7);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px
+  }
+  
+.tar-card-wrap a{
+      color: rgb(13, 19, 33);
+      font-weight: 700;
+      font-size: 16px;
+  }
+.tar-card1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.tar-card2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.tar-card3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+  /* target-section-style-ended-here */
+
+
+  
 
 
