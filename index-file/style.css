@@ -120,6 +120,7 @@ margin-bottom: 24px;
         gap:70px;
         border-radius: 16px;
         padding:48px;
+        margin-bottom: 30px;
         background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
         
  }
@@ -131,6 +132,7 @@ margin-bottom: 24px;
    align-items: center;
    gap:70px;
    padding:48px;
+   margin-bottom: 30px;
    border-radius: 16px;
    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
  }
